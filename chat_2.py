@@ -43,7 +43,7 @@ def get_claude_response(messages):
         # max_tokens: 返答の最大文字数
         # messages: これまでの会話履歴(これを送ることでAIが会話の流れを覚える)
         response = client.messages.create(
-            model="claude-3-5-sonnet-20241022",
+            model="claude-sonnet-4-5",
             max_tokens=8096,
             messages=messages,
         )
