@@ -443,11 +443,11 @@ def get_claude_response(messages):
     """
     try:
         # Claude APIにリクエストを送信
-        # model: 使用するAIモデル(claude-3-5-sonnet-20241022が最新の高性能モデル)
+        # model: 使用するAIモデル(claude-sonnet-4-5が最新の高性能モデル)
         # max_tokens: 返答の最大長
         # messages: これまでの会話履歴
         response = anthropic_client.messages.create(
-            model="claude-3-5-sonnet-20241022",
+            model="claude-sonnet-4-5",
             max_tokens=8096,
             messages=messages
         )
