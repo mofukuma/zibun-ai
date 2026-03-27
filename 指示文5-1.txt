@@ -1,0 +1,19 @@
+Claude APIを使って、喫茶店の店舗情報を学習したRAGアプリケーションを作ります。
+開発のための計画を "計画書5.md" に書いて。
+できるだけ専門用語を使わず解りやすく書いて。
+
+# 計画書の構成
+要件、どの技術を使うか、機能
+
+# 以下を含むこと
+プログラムはchat_5.pyにまとめて
+ファイル先頭、関数の前、複雑な処理の前に日本語コメントを入れて
+StreamlitとLlamaIndexを使って
+このCSVファイルからRAGを作って：komeda_list_tokyo.csv
+CSVファイルはテキスト分割しても意味がわかるように、各行に対応する項目名を入れてからRAGにして
+埋め込みモデルはHuggingFaceのこれを使って：intfloat/multilingual-e5-base
+このページを参考にして：https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/build-conversational-apps, https://developers.llamaindex.ai/python/framework/
+requirements.txtをつくって
+会話の記憶機能を入れて
+AIは"claude-sonnet-4-5"を使って
+APIキーは.envで管理して
