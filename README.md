@@ -13,13 +13,9 @@ pip install -r requirements.txt
 # APIキーを設定（.envファイルを作成）
 echo "ANTHROPIC_API_KEY=your_api_key_here" > .env
 ```
+**APIキーの入手方法:** [Anthropic Console](https://console.anthropic.com/) でアカウントを作成してAPIキーを発行してください。
 
-**APIキーの取得:** [Anthropic Console](https://console.anthropic.com/) でアカウントを作成してAPIキーを発行してください。
-
-## 📖 各章の実行方法
-
-書籍を参照してください。
-
+各プログラムの実行方法は書籍を参照してください。
 
 ## 📄 ライセンス
 
